@@ -15,9 +15,9 @@
         Main_layer {
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
-            // | MLY1  |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  ENT   |
-            // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RSHFT  |
-            //                    | GUI | LWR | SPC |   | MLY2 | RSE  | ALT |
+            // | MLY1 |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  ENT   |
+            // | LSHFT|  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RSHFT  |
+            //                    | CTL | WIN | ALT |   | MLY2 | RSE  | [ |
 
             bindings = <
 &kp TAB    &kp Q  &kp W  &kp E             &kp R         &kp T           &kp Y  &kp U      &kp I      &kp O    &kp P     &kp BACKSPACE
@@ -31,10 +31,10 @@
 
         N_S_B {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BKSP |
-            // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
-            // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // | TAB | SLK | HM  | UP  | PgUp| BTNP|          | N7  | N8  | N9  |  -  |  /  |FWSP |
+            // | TL0 | CLK | LFT |     | RGT | BTDP|          | N4  | N5  | N6  | +   |  *  | ENT |
+            // |LSHFT| INS | END | DWN | PgDn| BTCP|          | N1  | N2  | N3  | INT | NLK |RSHFT|
+            //                   | CTL | WIN | ALT |          | TL1 | SPC | ALT |
 
             bindings = <
 &kp ESCAPE      &trans  &kp HOME        &kp UP_ARROW      &kp PAGE_UP      &trans          &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &bt BT_CLR
@@ -48,10 +48,10 @@
 
         F_N_S {
             // -----------------------------------------------------------------------------------------
-            // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BKSP |
-            // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
-            // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
-            //                    | GUI |     | SPC |   | ENT |     | ALT |
+            // | F1  | F2  | F3  | F4  | F5  | F6  |          | F7  | F8  | F9  | F10 | F11 | F12 |
+            // | TL2 |  1  |  2  |  3  |  4  |  5  |          |  6  |  7  |  8  |  9  |  0  | ENT |
+            // |LSHFT|  |  |  '  |  ¿  |  +  |  {  |          |  }  |     |     |     |     |RSHFT|
+            //                   | CTL | WIN | ALT |         | TL0 |PRSC |PAUSE|
 
             bindings = <
 &kp F1     &kp F2        &kp F3        &kp F4            &kp F5        &kp F6          &kp F7        &kp F8        &kp F9        &kp F10       &kp F11       &kp F12
