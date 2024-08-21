@@ -48,9 +48,9 @@
             //                   | CTL | WIN | ALT |          | TL1 | SPC | ALT |
 
             bindings = <
-&kp ESCAPE      &kp SCROLLLOCK  &kp HOME        &kp UP_ARROW      &kp PAGE_UP      &kp K_VOLUME_UP      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
+&kp ESCAPE      &kp SCROLLLOCK  &kp HOME        &kp UP_ARROW      &kp PAGE_UP      &kp C_VOLUME_UP      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
 &to 0           &kp CAPSLOCK    &kp LEFT_ARROW  &kp KP_ENTER      &kp RIGHT_ARROW  &kp K_PLAY_PAUSE     &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MULTIPLY  &kp ENTER
-&kp LEFT_SHIFT  &kp INSERT      &kp LC(END)     &kp DOWN          &kp PAGE_DOWN    &kp K_VOLUME_DOWN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
+&kp LEFT_SHIFT  &kp INSERT      &kp LC(END)     &kp DOWN          &kp PAGE_DOWN    &kp C_VOLUME_DOWN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
                                                 &kp LEFT_CONTROL  &kp LEFT_WIN     &kp LEFT_ALT         &sl 1            &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
