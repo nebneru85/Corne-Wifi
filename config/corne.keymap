@@ -36,7 +36,7 @@
                          &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &mo 2  &kp SPACE  &kp LEFT_BRACKET
             >;
 
-            label = "MAZZIO";
+            label = "MAZZIO-TORRES";
         };
 
         N_S_B {
@@ -53,7 +53,7 @@
                                                 &kp LEFT_CONTROL  &kp LEFT_WIN     &kp LEFT_ALT    &tog 1           &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
-            label = "N-S-B";
+            label = "NUMBERS";
         };
 
         F_N_S {
@@ -70,7 +70,7 @@
                                        &kp LEFT_CONTROL  &kp LEFT_WIN       &kp LEFT_ALT        &to 0          &kp PRINTSCREEN   &kp PAUSE_BREAK
             >;
 
-            label = "F-N-S";
+            label = "FUNCTIONS";
         };
     };
 };
