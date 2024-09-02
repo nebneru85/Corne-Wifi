@@ -47,10 +47,10 @@
             //                   | CTL | WIN | ALT |          | TL1 | SPC | ALT |
 
             bindings = <
-&kp ESCAPE      &kp SCROLLLOCK  &kp HOME        &kp UP_ARROW      &kp PAGE_UP      &kp C_VOLUME_UP      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
-&to 3           &kp CAPSLOCK    &kp LEFT_ARROW  &kp KP_ENTER      &kp RIGHT_ARROW  &kp C_MUTE           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MULTIPLY  &kp ENTER
-&kp LEFT_SHIFT  &kp INSERT      &kp LC(END)     &kp DOWN          &kp PAGE_DOWN    &kp C_VOLUME_DOWN    &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
-                                                &kp LEFT_CONTROL  &kp LEFT_WIN     &kp LEFT_ALT         &to 2            &kp KP_NUMBER_0  &kp KP_DOT
+&kp ESCAPE      &kp HOME        &kp UP_ARROW    &kp PAGE_UP       &kp C_VOLUME_UP    &kp C_NEXT      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_SUBTRACT  &kp KP_DIVIDE    &kp DELETE
+&to 3           &kp LEFT_ARROW  &kp KP_ENTER    &kp RIGHT_ARROW   &kp C_MUTE         &kp C_PLAY      &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS      &kp KP_MULTIPLY  &kp ENTER
+&kp LEFT_SHIFT  &kp END         &kp DOWN_ARROW  &kp PAGE_DOWN     &kp C_VOLUME_DOWN  &kp C_PREV      &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_ENTER     &kp KP_NUMLOCK   &kp RIGHT_SHIFT
+                                                &kp LEFT_CONTROL  &kp LEFT_WIN       &kp LEFT_ALT    &to 2            &kp KP_NUMBER_0  &kp KP_DOT
             >;
 
             label = "NUMBERS";
@@ -64,10 +64,10 @@
             //                   | CTL | WIN | ALT |          | TL0 |PRSC |PAUSE|
 
             bindings = <
-&kp F1          &kp F2        &kp F3        &kp F4            &kp F5             &kp F6              &kp F7         &kp F8           &kp F9           &kp F10       &kp F11           &kp F12
-&to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3      &kp NUMBER_4       &kp NUMBER_5        &kp NUMBER_6   &kp NUMBER_7     &kp NUMBER_8     &kp NUMBER_9  &kp NUMBER_0      &kp ENTER
-&kp LEFT_SHIFT  &kp GRAVE     &kp MINUS     &kp EQUAL         &kp RIGHT_BRACKET  &kp SINGLE_QUOTE    &kp BACKSLASH  &kp C_PREV       &kp C_PLAY       &kp C_NEXT    &kp C_BASS_BOOST  &kp RIGHT_SHIFT
-                                            &kp LEFT_CONTROL  &kp LEFT_WIN       &kp LEFT_ALT        &to 3          &kp PRINTSCREEN  &kp PAUSE_BREAK
+&kp F1          &kp F2        &kp F3        &kp F4             &kp F5          &kp F6           &kp F7        &kp F8                &kp F9           &kp F10           &kp F11       &kp F12
+&to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0  &kp ENTER
+&kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp BACKSLASH    &kp GRAVE     &kp NON_US_BACKSLASH  &kp LESS_THAN    &kp GREATER_THAN  &kp KP_EQUAL  &kp RIGHT_SHIFT
+                                            &kp LEFT_CONTROL   &kp LEFT_WIN    &kp LEFT_ALT     &to 3         &kp PRINTSCREEN       &kp PAUSE_BREAK
             >;
 
             label = "FUNCTIONS";
@@ -75,10 +75,10 @@
 
         BT {
             bindings = <
-&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans  &trans  &trans  &trans  &trans
-&to 0       &trans        &trans        &trans            &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans        &trans        &trans            &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
-                                        &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &to 0   &trans  &trans
+&bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4    &trans  &trans          &trans    &trans  &trans  &trans
+&to 0       &trans        &trans        &trans            &trans        &trans          &trans  &trans          &trans    &trans  &trans  &trans
+&trans      &trans        &trans        &trans            &trans        &trans          &trans  &trans          &trans    &trans  &trans  &trans
+                                        &kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT    &to 0   &kp SCROLLLOCK  &kp CAPS
             >;
 
             label = "OPTIONS";
