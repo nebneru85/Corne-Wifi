@@ -64,9 +64,9 @@
             //                   | CTL | WIN | ALT |          | TL0 |PRSC |PAUSE|
 
             bindings = <
-&kp F1          &kp F2        &kp F3        &kp F4             &kp F5          &kp F6           &kp F7        &kp F8                &kp F9           &kp F10           &kp F11       &kp F12
-&to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9      &kp NUMBER_0  &kp ENTER
-&kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp BACKSLASH    &kp GRAVE     &kp NON_US_BACKSLASH  &kp LESS_THAN    &kp GREATER_THAN  &kp KP_EQUAL  &kp RIGHT_SHIFT
+&kp F1          &kp F2        &kp F3        &kp F4             &kp F5          &kp F6           &kp F7        &kp F8                &kp F9           &kp F10          &kp F11       &kp F12
+&to 1           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5     &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9     &kp NUMBER_0  &kp ENTER
+&kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp BACKSLASH    &kp TILDE     &kp NON_US_BACKSLASH  &kp GRAVE        &kp NON_US_HASH  &kp AT_SIGN   &kp RIGHT_SHIFT
                                             &kp LEFT_CONTROL   &kp LEFT_WIN    &kp LEFT_ALT     &to 3         &kp PRINTSCREEN       &kp PAUSE_BREAK
             >;
 
