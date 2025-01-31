@@ -99,16 +99,16 @@
 
         Fun  {
             // -----------------------------------------------------------------------------------------
-            // | F1  | F2  | F3  | F4  | F5  | F6  |          | F7  | F8  | F9  | F10 | F11 | F12 |
-            // |     |  1  |  2  |  3  |  4  |  5  |          |  6  |  7  |  8  |  9  |  0  | ENT |
-            // |LSHFT|  |  |  '  |  ¿  |  +  |  {  |          |  }  |PLAY |NEXT |VOLUP|VOLDN|RSHFT|
-            //                   | CTL | WIN | ALT |          |     |PRSC |PAUSE|
+            // | F1  | F2  | F3  | F4  | F5  | F6   |          | F7   | F8  | F9  | F10 | F11 | F12 |
+            // |     |  1  |  2  |  3  |  4  |  5   |          |  6   |  7  |  8  |  9  |  0  | ENT |
+            // |reset|  |  |  '  |  ¿  |  +  |  {   |          |  }   |PLAY |NEXT |VOLUP|VOLDN|reset|
+            //                   | CTL | WIN | boot |          | boot |PRSC |PAUSE|
 
             bindings = <
 &kp F1          &kp F2        &kp F3        &kp F4             &kp F5          &kp F6               &kp F7        &kp F8                &kp F9           &kp F10        &kp F11        &kp F12
 &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3       &kp NUMBER_4    &kp NUMBER_5         &kp NUMBER_6  &kp NUMBER_7          &kp NUMBER_8     &kp NUMBER_9   &kp NUMBER_0   &kp ENTER
-&kp LEFT_SHIFT  &kp MINUS     &kp EQUAL     &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp BACKSLASH        &kp TILDE     &kp NON_US_BACKSLASH  &kp GRAVE        &kp AMPERSAND  &kp AMPERSAND  &kp RIGHT_SHIFT
-                                            &kp LEFT_CONTROL   &kp LEFT_WIN    &kp LEFT_ALT         &trans        &kp PRINTSCREEN       &kp PAUSE_BREAK
+&sys_reset      &kp MINUS     &kp EQUAL     &kp RIGHT_BRACKET  &kp APOSTROPHE  &kp BACKSLASH        &kp TILDE     &kp NON_US_BACKSLASH  &kp GRAVE        &kp AMPERSAND  &kp AMPERSAND  &sys_reset
+                                            &kp LEFT_CONTROL   &kp LEFT_WIN    &bootloader          &bootloader        &kp PRINTSCREEN       &kp PAUSE_BREAK
             >;
 
             label = "Fun";
@@ -126,8 +126,8 @@
             bindings = <
 &bt BT_NXT      &bt BT_SEL 0      &bt BT_SEL 1      &bt BT_SEL 2      &bt BT_SEL 3  &bt BT_SEL 4            &trans         &trans          &trans         &trans         &trans         &trans
 &bt BT_CLR      &rgb_ug RGB_TOG   &rgb_ug RGB_BRI   &rgb_ug RGB_HUI   &trans        &trans                  &trans         &trans          &trans         &trans         &trans         &trans
-&sys_reset      &rgb_ug RGB_EFF   &rgb_ug RGB_BRD   &rgb_ug RGB_HUD   &trans        &trans                  &trans         &trans          &trans         &trans         &trans         &sys_reset
-                                                    &trans            &trans        &bootloader             &bootloader    &trans          &trans
+&trans          &rgb_ug RGB_EFF   &rgb_ug RGB_BRD   &rgb_ug RGB_HUD   &trans        &trans                  &trans         &trans          &trans         &trans         &trans         &trans
+                                                    &trans            &trans        &trans                  &trans         &trans          &trans
             >;
 
             label = "RGB-BLUET";
