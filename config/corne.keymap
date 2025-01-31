@@ -89,7 +89,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                        &transL &trans  &trans       &trans  &trans  &trans
+                        &trans  &trans  &trans       &trans  &trans  &trans
             >;
 
             label = "Signos";
